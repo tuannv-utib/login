@@ -1,0 +1,148 @@
+html {
+  width: 100% !important;
+  height: 100% !important;
+}
+html .flex-column-auto {
+  flex: 1 0 auto;
+}
+html .flex-row-fluid {
+  flex: 1 auto;
+  min-width: 0;
+}
+html .flex-row-auto {
+  flex: 0 0 auto;
+}
+html [theme=light].body {
+  background-image: url("../imgs/morning.png");
+}
+html [theme=dark].body {
+  background-image: url("../imgs/night.png");
+}
+html [theme=light] .light {
+  display: flex !important;
+}
+html [theme=light] .dark {
+  display: none !important;
+}
+html [theme=dark] .dark {
+  display: flex !important;
+}
+html [theme=dark] .light {
+  display: none !important;
+}
+html [theme=dark] .title {
+  max-width: 475px !important;
+}
+html [theme=dark] .title .under-line {
+  width: 220px !important;
+}
+html body {
+  width: 100% !important;
+  height: 100% !important;
+  background-position: top;
+  background-size: inherit;
+  background-repeat: no-repeat;
+}
+html body .setting {
+  margin-top: 40px !important;
+  margin-right: 80px !important;
+}
+html body .setting i {
+  color: #efc28a !important;
+  font-size: 30px !important;
+  cursor: pointer;
+  text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+html body .setting i:hover {
+  color: #f49852 !important;
+}
+html body .title {
+  max-width: 585px !important;
+  margin-top: 10vh;
+}
+html body .title h1 {
+  font-family: "QuicksandBook", sans-serif !important;
+  font-size: 80px;
+  color: #fff !important;
+  letter-spacing: 4px;
+  font-weight: 600;
+}
+html body .title .under-line {
+  width: 330px !important;
+  border-bottom: 3px solid #a3d52f !important;
+  margin-bottom: 10px !important;
+  margin-top: -5px !important;
+}
+html body .title h2 {
+  font-family: "Ubuntu", sans-serif !important;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(183, 240, 242, 0.7098039216) !important;
+}
+html body .form-area {
+  width: 60vw !important;
+  margin-bottom: 5vh !important;
+}
+html body .form-area .form-control {
+  background-color: transparent !important;
+  outline: none !important;
+  border: none !important;
+  margin-bottom: 50px !important;
+}
+html body .form-area .form-control input {
+  outline: none !important;
+  border: none !important;
+  background-color: transparent !important;
+  border-bottom: 2px solid rgba(255, 246, 241, 0.8235294118) !important;
+  height: 50px !important;
+  font-size: 25px !important;
+  color: #fff !important;
+  font-family: "Ubuntu", sans-serif !important;
+}
+html body .form-area .form-control input::-moz-placeholder {
+  color: rgba(255, 246, 241, 0.8235294118) !important;
+  font-size: 25px !important;
+  font-family: "Ubuntu", sans-serif !important;
+}
+html body .form-area .form-control input::placeholder {
+  color: rgba(255, 246, 241, 0.8235294118) !important;
+  font-size: 25px !important;
+  font-family: "Ubuntu", sans-serif !important;
+}
+html body .form-area .form-control img {
+  width: 26px;
+  height: 26px;
+  margin-left: -35px !important;
+  margin-top: 15px !important;
+}
+html body .form-area .form-control button {
+  margin-top: 30px;
+  width: 90% !important;
+  height: 50px;
+  background-color: transparent !important;
+  border-radius: 6px !important;
+  box-shadow: none !important;
+  border: 2px solid rgba(255, 246, 241, 0.8235294118) !important;
+  font-size: 19px;
+  color: rgba(255, 246, 241, 0.8235294118);
+  font-weight: 500;
+}
+html body .form-area .form-control button:hover {
+  background-color: rgba(255, 246, 241, 0.3529411765) !important;
+}
+html body .forget {
+  max-height: 150px !important;
+  font-family: "Ubuntu", sans-serif !important;
+  color: #8998a1 !important;
+  font-size: 22px !important;
+  font-weight: 400 !important;
+  cursor: pointer;
+}
+html body .forget span:hover {
+  color: #fff !important;
+}
+
+@font-face {
+  font-family: "QuicksandBook";
+  src: url("../fonts/Quicksand_Book.otf");
+}/*# sourceMappingURL=style.css.map */
